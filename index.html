@@ -284,13 +284,19 @@
             </div>
             <div class="linked-in-group">
               <div class="socials1">
-                <img class="group-icon" alt="" src="./public/group-303-1.svg" />
+                
+                <a href="https://twitter.com/" target="_blank">
+                  <img class="group-icon" src="./public/group-303-1.svg" alt="Clickable Icon">
+              </a>
 
                 <div class="linkedin-group">
                   <div class="linkedin1">
                     <div class="flat-copy-5-container">
                       <div class="flat-copy-51">
                         <img class="vector-icon2" alt="" />
+                        <a href="https://twitter.com/" target="_blank">
+                          <img class="frame-inner" src="./public/group-296-1.svg" alt="Clickable Icon">
+                      </a>
 
                         <img
                           class="vector-icon3"
@@ -300,11 +306,6 @@
                       </div>
                     </div>
                   </div>
-                  <img
-                    class="frame-inner"
-                    alt=""
-                    src="./public/group-296-1.svg"
-                  />
                 </div>
                 <img class="group-icon" alt="" src="./public/group-305-1.svg" />
 
@@ -342,9 +343,58 @@
                     gutter.
                   </div>
                 </div>
+                <title>Countdown Timer</title>
+                <style>
+                    #countdown {
+                      height: 21px;
+  width: 92px;
+  position: relative;
+  font-size: var(--font-size-xl-2);
+  left: -10%;
+  line-height: 105%;
+  font-weight: 600;
+  font-family: var(--font-oxanium);
+  color: var(--color-darkturquoise);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+                    }
+                </style>
                 <button class="clock">
                   <div class="clock-child"></div>
-                  <div class="pm">00.00 PM</div>
+                  
+                  <div id="countdown"></div>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Feb 28, 2024 00:00:00").getTime();
+
+    // Update the countdown every 1 second
+    var x = setInterval(function() {
+
+        // Get the current date and time
+        var now = new Date().getTime();
+
+        // Calculate the remaining time
+        var distance = countDownDate - now;
+
+        // Calculate days, hours, minutes, and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the countdown in the element with id="countdown"
+        document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " ;
+
+        // If the countdown is over, display a message
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script> 
                 </button>
                 <div class="group-linked-in">
                   <div class="convener-name"></div>
@@ -362,12 +412,7 @@
                           class="frame-child2"
                           alt=""
                           src="./public/group-277@2x.png"
-                          height: 100%;
-  width: 5.50%;
-  top: 0px;
-  right: 30.84%;
-  bottom: 0px;
-  left: 62.55%;
+                          
                         />
 
                         <div class="group-linked-in-flatcopy">

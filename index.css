@@ -946,7 +946,7 @@
   max-height: 100%;
   z-index: 1;
 }
-.flat-copy-51 {
+/**.flat-copy-51 {
   margin-top: -1px;
   display: flex;
   flex-direction: row;
@@ -954,7 +954,7 @@
   justify-content: flex-start;
   position: relative;
   gap: 10.34px;
-}
+} **/
 .flat-copy-5-container {
   height: 37px;
   display: flex;
@@ -1139,19 +1139,7 @@
   box-sizing: border-box;
   display: none;
 }
-.pm {
-  height: 21px;
-  width: 92px;
-  position: relative;
-  font-size: var(--font-size-xl-2);
-  line-height: 105%;
-  font-weight: 600;
-  font-family: var(--font-oxanium);
-  color: var(--color-darkturquoise);
-  text-align: left;
-  display: inline-block;
-  z-index: 1;
-}
+
 .clock {
   cursor: pointer;
   border: 2.4px solid var(--color-indianred);
