@@ -170,7 +170,7 @@
   align-items: center;
 }
 .resolving-ipv4-address {
-  width: 266px;
+  /*width: 266px;*/
   height: 10px;
   position: relative;
   letter-spacing: 0.2em;
