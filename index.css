@@ -1198,6 +1198,8 @@
   position: relative;
   object-fit: contain;
   max-width: 100%;
+  left: -2.20%;
+
 }
 .hackathon {
   height: 8px;
@@ -1400,16 +1402,34 @@
 .layer-2-icon {
   position: absolute;
   height: 100%;
-  width: 5.75%;
+  width: 5.50%;
   top: 0px;
   right: 30.84%;
   bottom: 0px;
-  left: 63.41%;
+  left: 62.55%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: contain;
+  animation: rotateInnerClockwise 2s linear infinite,
+                       rotateInnerAntiClockwise 3s linear infinite;
 }
+@keyframes rotate {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateInnerClockwise {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* Hover effect for color change 
+.layer-2-icon:hover, .inner-circle:hover {
+  background-color: #e74c3c;
+} */
 .frame-child6 {
   position: absolute;
   height: 25.39%;
