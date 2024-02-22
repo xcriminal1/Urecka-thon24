@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-oxanium: Oxanium;
+  --font-cyberway-riders: "Cyberway Riders";
+  --font-haettenschweiler: Haettenschweiler;
+
+  /* font sizes */
+  --font-size-base-7: 15.7px;
+  --font-size-base-4: 15.4px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-xl-2: 20.2px;
+  --font-size-xs-2: 11.2px;
+  --font-size-3xl-5: 22.5px;
+  --font-size-lg: 18px;
+  --font-size-mini-5: 14.5px;
+  --font-size-2xs-9: 10.9px;
+  --font-size-base-8: 16.8px;
+
+  /* Colors */
+  --color-gray-100: #010914;
+  --color-gray-200: rgba(28, 28, 28, 0.5);
+  --color-yellow: #fcf006;
+  --color-white: #fff;
+  --color-indianred: #db544c;
+  --color-darkturquoise: #01d7f1;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-8xs: 5px;
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  --gap-smi-2: 12.2px;
+  --gap-8xs-9: 4.9px;
+  --gap-6xs: 7px;
+  --gap-35xl: 54px;
+  --gap-2xl: 21px;
+  --gap-60xl: 79px;
+  --gap-5xs: 8px;
+  --gap-12xs: 1px;
+  --gap-6xl: 25px;
+  --gap-5xs-2: 7.2px;
+  --gap-sm-8: 13.8px;
+  --gap-9xs-6: 3.6px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-8xl: 27px;
+  --padding-10xs: 3px;
+  --padding-9xs: 4px;
+  --padding-7xs: 6px;
+  --padding-3xs: 10px;
+  --padding-12xs: 1px;
+  --padding-2xs: 11px;
+  --padding-xs: 12px;
+  --padding-mid: 17px;
+  --padding-11xl: 30px;
+  --padding-8xs: 5px;
+  --padding-lg: 18px;
+  --padding-5xl: 24px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-8xs-1: 4.1px;
+  --br-9xs-6: 3.6px;
+}

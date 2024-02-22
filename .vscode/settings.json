@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "hackthon",
+    "id": "65d65207e6b20cb348efe8dc",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\aarya\\OneDrive\\Desktop\\project\\Urecka-thon24\\src\\components",
+    "screensPath": "c:\\Users\\aarya\\OneDrive\\Desktop\\project\\Urecka-thon24\\src\\pages"
+  }
+}
