@@ -346,6 +346,10 @@
 }
 .loading {
   margin: 0;
+  display: inline-block;
+  background-image: url('./public/u6.png'); /* Replace with your background image */
+            background-clip: absolute;
+            position: relative;
 }
 .home-module-loading-container {
   height: 22.3px;
@@ -1762,7 +1766,7 @@
   max-height: 100%;
 }
 .frame-child12 {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   top: 0px;
@@ -1773,6 +1777,10 @@
   overflow: hidden;
   max-height: 100%;
   z-index: 1;
+}
+.frame-child12 img {
+    width: 120%; /* Increase the width of the image */
+    height: 300px; /* Maintain aspect ratio */
 }
 .vector-single-icon {
   position: absolute;
