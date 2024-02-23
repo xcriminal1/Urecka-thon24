@@ -10,5 +10,6 @@
     "path": "public/",
     "componentsPath": "c:\\Users\\aarya\\OneDrive\\Desktop\\project\\Urecka-thon24\\src\\components",
     "screensPath": "c:\\Users\\aarya\\OneDrive\\Desktop\\project\\Urecka-thon24\\src\\pages"
-  }
+  },
+  "liveServer.settings.port": 5501
 }
