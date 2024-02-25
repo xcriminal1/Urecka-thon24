@@ -1,0 +1,709 @@
+.rules {
+  background-color: #00000033;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.rules .overlap-wrapper {
+  background-color: #00000033;
+  overflow: hidden;
+  width: 1440px;
+  height: 1015px;
+}
+
+.rules .overlap {
+  position: relative;
+  width: 1612px;
+  height: 1136px;
+  left: -107px;
+}
+
+.rules .cyberpunk-urban {
+  position: absolute;
+  width: 1440px;
+  height: 1015px;
+  top: 0;
+  left: 107px;
+  object-fit: cover;
+}
+
+.rules .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 1015px;
+  top: 0;
+  left: 107px;
+}
+
+.rules .vector {
+  position: absolute;
+  width: 1461px;
+  height: 87px;
+  top: 96px;
+  left: 97px;
+}
+
+.rules .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 87px;
+  left: 10px;
+}
+
+.rules .img {
+  position: absolute;
+  width: 1440px;
+  height: 87px;
+  top: 0;
+  left: 0;
+}
+
+.rules .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5.87px;
+  position: absolute;
+  width: 199px;
+  height: 22px;
+  top: 16px;
+  left: 6px;
+}
+
+.rules .text {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--font-oxanium);
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 14.3px;
+}
+
+.rules .text-wrapper {
+  font-family: var(--font-oxanium);
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 14.3px;
+}
+
+.rules .div {
+  position: absolute;
+  top: 215px;
+  left: 153px;
+  font-family: var(--font-oxanium,--font-haettenschweiler);
+  font-weight: 500;
+  font-size: 66.7px;
+  line-height: 50px;
+  color: #fcf006;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.rules .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  position: absolute;
+  top: 313px;
+  left: 164px;
+}
+
+.rules .img-2 {
+  position: relative;
+  width: 18.59px;
+  height: 23.58px;
+}
+
+.rules .polygon {
+  position: absolute;
+  width: 14px;
+  height: 17px;
+  top: 3px;
+  left: 4px;
+}
+
+.rules .rectangle-2 {
+  position: absolute;
+  width: 1612px;
+  height: 342px;
+  top: 794px;
+  left: 0;
+  background-color: #000000;
+  filter: blur(88.7px);
+}
+
+.rules .group {
+  position: absolute;
+  width: 907px;
+  height: 124px;
+  top: 856px;
+  left: 153px;
+}
+
+.rules .group-2 {
+  position: absolute;
+  width: 917px;
+  height: 56px;
+  top: 68px;
+  left: 0;
+}
+
+.rules .group-3 {
+  position: absolute;
+  width: 73px;
+  height: 21px;
+  top: 35px;
+  left: 1px;
+}
+
+.rules .frame-wrapper {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  top: 0;
+  left: 52px;
+  background-image: url(./svgss/Frame\ 593s.svg);
+  background-size: 100% 100%;
+}
+
+.about-us .frame {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  top: 4px;
+  left: 4px;
+}
+
+.rules .group-wrapper {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  top: 4px;
+  left: 4px;
+}
+
+.rules .div-wrapper {
+  height: 13px;
+  border-radius: 6.38px;
+  border: 1.06px solid;
+  border-color: #db544c;
+}
+
+.rules .overlap-group-wrapper {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  top: 4px;
+  left: 4px;
+}
+
+.rules .overlap-group-2 {
+  position: relative;
+  height: 4px;
+}
+
+.rules .rectangle-3 {
+  position: absolute;
+  width: 1px;
+  height: 4px;
+  top: 0;
+  left: 1px;
+  background-color: #db544c;
+}
+
+.rules .rectangle-4 {
+  position: absolute;
+  width: 1px;
+  height: 4px;
+  top: 0;
+  left: 1px;
+  background-color: #db544c;
+  transform: rotate(-90deg);
+}
+
+.rules .rectangle-5 {
+  position: absolute;
+  width: 4px;
+  height: 17px;
+  top: 0;
+  left: 0;
+  background-color: #db544c;
+}
+
+.rules .overlap-2 {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+  top: 0;
+  left: 5px;
+}
+
+.rules .rectangle-6 {
+  position: absolute;
+  width: 4px;
+  height: 17px;
+  top: 2px;
+  left: 14px;
+  background-color: #db544c;
+}
+
+.rules .rectangle-7 {
+  position: absolute;
+  width: 4px;
+  height: 17px;
+  top: 2px;
+  left: 3px;
+  background-color: #db544c;
+}
+
+.rules .rectangle-8 {
+  position: absolute;
+  width: 4px;
+  height: 17px;
+  top: 2px;
+  left: 8px;
+  background-color: #db544c;
+}
+
+.rules .vector-2 {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+  top: 0;
+  left: 0;
+}
+
+.rules .rectangle-9 {
+  position: absolute;
+  width: 4px;
+  height: 1px;
+  top: 18px;
+  left: 0;
+  background-color: #db544c;
+}
+
+.rules .rectangle-10 {
+  position: absolute;
+  width: 4px;
+  height: 1px;
+  top: 20px;
+  left: 0;
+  background-color: #db544c;
+}
+
+.rules .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 9px;
+  white-space: nowrap;
+}
+
+.rules .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 151px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 9px;
+  white-space: nowrap;
+}
+
+.rules .text-wrapper-4 {
+  position: absolute;
+  top: 1px;
+  left: 836px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 9px;
+  white-space: nowrap;
+}
+
+.rules .text-wrapper-5 {
+  position: absolute;
+  top: 1px;
+  left: 705px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 9px;
+  white-space: nowrap;
+}
+
+.rules .IDREF {
+  position: absolute;
+  top: 34px;
+  left: 80px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 11.4px;
+  letter-spacing: -0.91px;
+  line-height: 11.1px;
+}
+
+.rules .line {
+  position: absolute;
+  width: 906px;
+  height: 1px;
+  top: 60px;
+  left: 1px;
+}
+
+.rules .group-4 {
+  position: absolute;
+  width: 273px;
+  height: 54px;
+  top: 0;
+  left: 1px;
+}
+
+.rules .frame-2 {
+  position: absolute;
+  width: 132px;
+  height: 54px;
+  top: 0;
+  left: 141px;
+  backdrop-filter: blur(9.47px) brightness(100%);
+  -webkit-backdrop-filter: blur(9.47px) brightness(100%);
+  background-image: url(./public/vector-263.svg);
+  background-size: 100% 100%;
+}
+
+.rules .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7.58px;
+  position: relative;
+  top: 6px;
+  left: 13px;
+}
+
+.rules .frame-4 {
+  display: inline-flex;
+  align-items: flex-end;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.rules .text-wrapper-6 {
+  position: absolute;
+  width: 48.51px;
+  margin-top: -0.47px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 7.6px;
+  letter-spacing: 0;
+  line-height: 7.2px;
+}
+
+.rules .line-2 {
+  position: relative;
+  width: 61.42px;
+  height: 1.33px;
+  margin-bottom: -0.33px;
+  margin-right: -0.33px;
+}
+
+.rules .p {
+  position: absolute;
+  width: 108.08px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #db544c;
+  font-size: 6.7px;
+  text-align: justify;
+  top: -2px;
+  letter-spacing: 0;
+  line-height: 7.1px;
+}
+
+.rules .rectangle-11 {
+  position: absolute;
+  width: 5px;
+  height: 14px;
+  top: 20px;
+  left: 132px;
+  background-color: #db544c;
+}
+
+.rules .CLOCK {
+  position: absolute;
+  width: 126px;
+  height: 54px;
+  top: 0;
+  left: 0;
+}
+
+.rules .overlap-group-3 {
+  position: relative;
+  width: 124px;
+  height: 54px;
+  background-color: #1c1c1c80;
+  border-radius: 4.07px;
+  border: 2.44px solid;
+  border-color: #db544c;
+}
+
+.rules .text-wrapper-7 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #01d7f1;
+  font-size: 20.2px;
+  letter-spacing: 0;
+  line-height: 21.2px;
+  white-space: nowrap;
+}
+
+.rules .SOCIALS {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15.06px;
+  position: absolute;
+  top: 931px;
+  left: 1208px;
+  backdrop-filter: blur(30.74px) brightness(100%);
+  -webkit-backdrop-filter: blur(30.74px) brightness(100%);
+}
+
+.rules .group-5 {
+  position: relative;
+  width: 61.06px;
+  height: 49.1px;
+  margin-top: -0.55px;
+  margin-left: -0.55px;
+}
+
+.rules .group-6 {
+  position: relative;
+  width: 61.06px;
+  height: 49.1px;
+  margin-top: -0.55px;
+}
+
+.rules .group-7 {
+  position: relative;
+  width: 61.06px;
+  height: 49.1px;
+  margin-top: -0.55px;
+  margin-right: -0.55px;
+}
+
+.rules .content {
+  position: absolute;
+  width: 1132px;
+  top: 100px;
+  left: 53px;
+  font-family: "Oxanium-Regular", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.rules .about-ureckon {
+  position: absolute;
+  width: 1234px;
+  height: 343px;
+  top: 360px;
+  left: 210px;
+  background-image: url(./svgss/BoxVector.svg);
+  background-size: 100% 100%;
+}
+
+.rules .heading {
+  position: absolute;
+  top: 40px;
+  left: 53px;
+  --font-family: var(--font-oxanium,--font-haettenschweiler);
+  font-weight: 600;
+  color: #fcf006;
+  font-size: 51.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 51.9px;
+  white-space: nowrap;
+}
+
+.rules .content-2 {
+  top: 733px;
+  position: absolute;
+  width: 1166px;
+  left: 233px;
+  font-family: "Oxanium-Regular", Helvetica;
+  font-weight: 400;
+  color: #fcf006;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.rules .content-3 {
+  top: 649px;
+  position: absolute;
+  width: 1166px;
+  left: 233px;
+  font-family: "Oxanium-Regular", Helvetica;
+  font-weight: 400;
+  color: #fcf006;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.rules .content-4 {
+  top: 566px;
+  position: absolute;
+  width: 1166px;
+  left: 233px;
+  font-family: "Oxanium-Regular", Helvetica;
+  font-weight: 400;
+  color: #fcf006;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.rules .content-5 {
+  top: 483px;
+  position: absolute;
+  width: 1166px;
+  left: 233px;
+  font-family: "Oxanium-Regular", Helvetica;
+  font-weight: 400;
+  color: #fcf006;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.rules .content-6 {
+  top: 400px;
+  position: absolute;
+  width: 1166px;
+  left: 233px;
+  font-family: "Oxanium-Regular", Helvetica;
+  font-weight: 400;
+  color: #fcf006;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.rules .group-8 {
+  position: absolute;
+  width: 1440px;
+  height: 97px;
+  top: 0;
+  left: 107px;
+  background-color: #010914;
+}
+
+.rules .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 203px;
+  position: relative;
+  top: 17px;
+  left: 86px;
+}
+
+.rules .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 206px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.rules .nav-bar-UEM-logo {
+  position: relative;
+  width: 75.29px;
+  height: 60.48px;
+}
+
+.rules .frame-7 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 50px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.rules .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12.6px;
+  white-space: nowrap;
+}
+
+.rules .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Oxanium-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 16.8px;
+  text-align: center;
+  line-height: 12.6px;
+  color: #fcf006;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.rules .vector-3 {
+  position: relative;
+  width: 45.95px;
+  height: 49.95px;
+}
+.box {
+  width: 1234px;
+  height: 343px;
+}
+
+.box .main-container {
+  position: absolute;
+  width: 1234px;
+  height: 343px;
+  top: 45px;
+  left: 47px;
+}
